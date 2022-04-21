@@ -1,0 +1,40 @@
+* {
+  background-color: chartreuse;
+}
+
+:root {
+  --side: 50px;
+}
+
+.square {
+  height: var(--side);
+  width: var(--side);
+  border: 1px solid grey;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.red {
+  background-color: red;
+}
+
+.black {
+  background-color: black;
+}
+
+.triangle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+}
+
+.row {
+  text-align: center;
+}
+
+.container {
+  width: calc(var(--side) * 9);
+}
