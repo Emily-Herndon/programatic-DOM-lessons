@@ -26,6 +26,7 @@
   display: inline-block;
   width: 0;
   height: 0;
+  background-color: hotpink;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-bottom: 100px solid red;
